@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+header {
+    display: block;
+	margin: 0;
+    background-color: #00B7EB;
+}
+
+.hero {
+    flex: 1;
+    background-color: #FF0000;
+}
+
+.wrapper {
+	margin: 0;
+	display: inline-flex !important;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.content {
+    flex: 1;
+    background-color: #00FF00;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #800080;
+}
+
+@media only screen and (max-width: 320px) {
+    wrapper {
+        flex: 1;
+    }
+}
+
+footer {
+    display: block;
+	margin: 0;
+    background-color: #444444;
+}
